@@ -1,0 +1,64 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1527393287739" stop="1527393287814">
+  <name>test001</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1527393287739" status="failed" stop="1527393287814">
+      <name>Test_01.test_01[1]</name>
+      <failure>
+        <message>AssertionError: assert 1 == 7</message>
+        <stack-trace>self = &lt;test001.Test_01 object at 0x058F2470&gt;, a = 1
+
+    @pytest.mark.parametrize("a",[1,3,7])
+    def test_01(self,a):
+&gt;       assert a == 7
+E       assert 1 == 7
+
+scripts\test001.py:7: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="9880-MainThread"/>
+        <label name="host" value="LAPTOP-UHS6H3KR"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1527393287814" status="failed" stop="1527393287814">
+      <name>Test_01.test_01[3]</name>
+      <failure>
+        <message>AssertionError: assert 3 == 7</message>
+        <stack-trace>self = &lt;test001.Test_01 object at 0x058F2C10&gt;, a = 3
+
+    @pytest.mark.parametrize("a",[1,3,7])
+    def test_01(self,a):
+&gt;       assert a == 7
+E       assert 3 == 7
+
+scripts\test001.py:7: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="9880-MainThread"/>
+        <label name="host" value="LAPTOP-UHS6H3KR"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1527393287814" status="passed" stop="1527393287814">
+      <name>Test_01.test_01[7]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="9880-MainThread"/>
+        <label name="host" value="LAPTOP-UHS6H3KR"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
